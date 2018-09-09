@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hairdresser</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="footer-distributed-with-address-and-phones.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="images/fhicon.png" type="image/x-icon">
+  
+</head>
+<body>
+
+  <nav class="navbar navbar-default" id="navH">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"  aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="indexEng_en.html">
+          <img src="images/logo.png">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="services_en.html">Services</a></li>
+          <li><a href="brands_en.html">Product Brands</a></li>
+          <li><a href="about_en.html">About Us</a></li>
+          <li><a href="reviews_en.html">Reviews</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="contact_en.html">Contact</a></li>
+          <li class="flags"><a href="contact_en.html">
+            <img src="images/enLogo.png">
+          </a></li>
+          <li class="flags"><a href="contact_dk.html">
+            <img src="images/dkLogo.png">
+          </a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="container">
+    <div id="mapCont">
+      <iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJBxqSOPMySUYRpjFDMiwgZgs&key=AIzaSyD4t0wcckEwWzEH7pZMsl_TlbpzlbJb0B8" allowfullscreen></iframe>
+    </div>
+  </div>
+
+
+<!-- FOOTER -->
+  <footer class="footer-distributed" id="contFooter">
+      <div class="footer-left">
+        <img src="images/logo.png">
+        <p class="footer-company-name">Frisør Hanne &copy; 2017</p>
+        <p class="footer-company-name">Design by webs4u.net &copy; 2017</p>
+      </div>
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Boulevarden 11</span> Aalborg (9000), Danmark</p>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p><a href="tel:+4598134348">+45 98 13 43 48</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:#">frisoerhanne@hotmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>Opening hours:</span>
+            <ul id="hours">
+              <li>Mon: 13:00 - 17:30</li>
+              <li>Tue: 09:00 - 17:30</li>
+              <li>Wed: 09:00 - 17:30</li>
+              <li>Thu: 09:00 - 18:30</li>
+              <li>Fri: 09:00 - 18:00</li>
+            </ul>
+        </p>
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/FrisorHanne/"><i class="fa fa-facebook"></i></a>
+          <a href="http://instagram.com/frisorhanne"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="responsiveslides.js"></script>
+  <script src="logic.js"></script>
+  <script>
+    $(function () {
+
+      // Slideshow
+      $("#slider1").responsiveSlides({
+        maxwidth: 980,
+        speed: 800
+      });
+    });
+  </script>
+
+</body>
+</html>
